@@ -12,7 +12,7 @@ namespace ConsoleApp2
             double novoCalculo = 1;
             while (novoCalculo == 1)
             {
-                nota = Convert.ToDouble(Console.ReadLine()); ;
+                nota = Convert.ToDouble(Console.ReadLine());
                 if (nota < 0 || nota > 10)
                 {
                     Console.WriteLine("nota invalida");
